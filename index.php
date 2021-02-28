@@ -4,9 +4,12 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<link rel="stylesheet" href="./Style/style.css"/>
+	<title>PHP PROJECT</title>
 </head>
 <body>
-	<h1>Togrul Salmanli</h1>
+<?php $ad="Togrul";$soyad="Salmanli"?>
+	<h1><?=$ad?></h1>
+	<h2><?=$soyad?></h2>
 </body>
 </html>
