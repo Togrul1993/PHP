@@ -60,6 +60,11 @@ body{
 }
 
 
+.container form textarea{
+	padding: 7px;
+}
+
+
 .container form button{
 	padding: 8px;
 }
